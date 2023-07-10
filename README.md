@@ -40,7 +40,8 @@ stage('Terraform Apply') {
     }
   }
 }
-```bash
+```
+
 This script initializes Terraform, generates a plan for the infrastructure changes, and applies the changes to your NSX-T environment.
 Customize the Terraform code to match your specific NSX-T configuration needs.
 Run the Jenkins pipeline job to configure your NSX-T environment using Terraform.
